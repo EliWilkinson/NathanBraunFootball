@@ -1,6 +1,16 @@
 '''
 # Spyder
-has a console and editor
-use f5 to run the whole code or f9 to run just one line
+IDE has a console and editor
+only issue is Anaconda takes up a ton of disk space
+
+Keyboard shortcuts
+use f5 to run the whole code
+f9 to run highlighted code
+
+On windows:
+Ctrl + shift + e : moves to the editor
+Ctrl + shift + i : moves you to the REPL
+
+Downloaded Anki, it doesn't have multiple choice or anything, but could be good in long run
 
 '''
