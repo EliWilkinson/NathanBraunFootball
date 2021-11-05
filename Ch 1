@@ -17,4 +17,11 @@ Downloaded Anki, it doesn't have multiple choice or anything, but could be good 
 
 end of page 12
 
+Pg 15
+High level data analysis process
+1) Collect data- web scrape and connect to an API
+
+2)store data- could be in an excel file or a databse
+            - this book recommends storing in an SQL database
+
 '''
