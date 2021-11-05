@@ -23,5 +23,13 @@ High level data analysis process
 
 2)store data- could be in an excel file or a databse
             - this book recommends storing in an SQL database
+            
+3) Loading Data- easy in a spreadsheet, need to know code in SQL and Python for the database
+
+4)Manipulating data
+  - munging = getting your data in a format to use it
+  - library Pandas allows us to do this
+
+5) Analyzing data for Insights
 
 '''
