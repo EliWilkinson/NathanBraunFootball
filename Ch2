@@ -67,4 +67,6 @@ def for_the_td(player1, player2):
 def is_leveon(player):
   if player.replace(" ' ", "").lower() == leveon bell:
     return True
+
+Exercise not easy... end of Ch2
 '''
