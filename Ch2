@@ -24,4 +24,8 @@ Lists hold ordered information
 pg 30
 unpacking- assigning values to multiple variables at once
          - not used too frequently
+         -SHORTER CODE IS NOT ALWAYS BETTER
+         -easier to read by assigning on separate lines
+
+
 '''
