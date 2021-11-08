@@ -27,5 +27,23 @@ unpacking- assigning values to multiple variables at once
          -SHORTER CODE IS NOT ALWAYS BETTER
          -easier to read by assigning on separate lines
 
+Comprehensions= way to modify lists or dicts with not a lot of code 
+              - like loops condensed onto one line
+              
+All list comprehensions take the form of [a for b in c]
+  -pg 34 (pg 40 in sidebar) 
+  -the last two are easy: c is the whole list: my_roster_list and b is full_name
+   - a is trickier: full_name.split('')[1]
+
+Can use dicts in comprehension too
+  - only way to access value of a dict is by .items()
+  -for _, lets programmers know we're not using that variable
+
+pg 39 of book(45 in sidebar)
+using default values
+def rec_pts_wdefault(rec=0, yds=0, tds=0):
+
+This next page could be good for FanDuel vs DarftKings
+  -shows how to change scoring system
 
 '''
