@@ -14,4 +14,14 @@ foo = 'tom brady' ----> foo.captalize() ----> Tom brady
 foo.capitalize? returns a definition of what the function does
 
 foo, bar, and baz are throwaway variables that have been used since the 50s
+---------------
+Page 29
+Lists and dicts
+
+Lists hold ordered information
+  -lists can hold anything, including other lists (aka nested lists)
+
+pg 30
+unpacking- assigning values to multiple variables at once
+         - not used too frequently
 '''
