@@ -46,4 +46,25 @@ def rec_pts_wdefault(rec=0, yds=0, tds=0):
 This next page could be good for FanDuel vs DarftKings
   -shows how to change scoring system
 
+Anonymous or lambda functions allow for more flexibility
+
+pg 43
+os Library and path
+  - answers question I had earlier in my head
+  
+End of Ch 2 Exercises notes
+
+2.1
+- programmers begin with '_' on a varibale if it is temporary
+-can't start a variable with a number
+-can't start with @ either, can only start with letter or _
+
+2.3
+def for_the_td(player1, player2):
+  return f'{player1} to {player2} for the td!"
+
+2.5
+def is_leveon(player):
+  if player.replace(" ' ", "").lower() == leveon bell:
+    return True
 '''
