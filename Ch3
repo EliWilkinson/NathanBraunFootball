@@ -1,6 +1,11 @@
 '''
 Pandas
 
+Most information rich chapter in the book 
+1) data from csv file ---> DataFrame
+2) access specific columns and rows
+3) learn indexes in DatFrames
+4) outputting DataFrames as csv files
 
 
 '''
