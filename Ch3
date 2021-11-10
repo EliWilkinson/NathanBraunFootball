@@ -7,5 +7,6 @@ Most information rich chapter in the book
 3) learn indexes in DatFrames
 4) outputting DataFrames as csv files
 
-
+Had to change variable to file path BEFORE importing os and pandas
+  -successfully created a DataFrame
 '''
