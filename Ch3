@@ -2,11 +2,21 @@
 Pandas
 
 Most information rich chapter in the book 
-1) data from csv file ---> DataFrame
+1) data from csv (comma separated values) file ---> DataFrame
 2) access specific columns and rows
-3) learn indexes in DatFrames
+3) learn indexes in DataFrames
 4) outputting DataFrames as csv files
 
 Had to change variable to file path BEFORE importing os and pandas
   -successfully created a DataFrame
+
+DataFrame.head() shows the first five rows of our data
+  - ... shows some columns won't fit on screen
+  - very useful as we go
+
+#Working with subsets of DataFrames
+  - getting one single column similar to a dicitonary
+  - adp['name'].head()
+  - technically a Series.. NOT a DataFrame
+  -not important now, but will come up later
 '''
