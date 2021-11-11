@@ -19,4 +19,16 @@ DataFrame.head() shows the first five rows of our data
   - adp['name'].head()
   - technically a Series.. NOT a DataFrame
   -not important now, but will come up later
+  -Don't forget:
+  adp[['name', 'position', 'adp']].head()
+  
+  The extra pair of brackets is essential
+
+
+Page 60/61
+  -seems like changing argument to inplace= True to set our left most column would be easier,
+  but the alternative would be worth revisiting one day
+
+Main benefit of indexing is keeping things aligned
+
 '''
