@@ -35,6 +35,11 @@ Lot of tests and boolean stuff so far
 end page 68
 Part 2
 
-numPy is a more more raw math oriented pyhton library
+numPy is a more more raw math oriented python library
 
+Pg 69
+Flag means to make a column of booleans
+
+= pg['pos'].apply(
+  lambda x: x in [ ])
 '''
