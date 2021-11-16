@@ -42,4 +42,9 @@ Flag means to make a column of booleans
 
 = pg['pos'].apply(
   lambda x: x in [ ])
+
+Missing values in pandas have the value: np.nan
+np means mumPy library that pandas is built on
+
+3.1.5 is tricky
 '''
