@@ -47,4 +47,8 @@ Missing values in pandas have the value: np.nan
 np means mumPy library that pandas is built on
 
 3.1.5 is tricky
+
+Axis
+  axis = 0 (aka columns)
+  axis = 1 (aka rows)
 '''
