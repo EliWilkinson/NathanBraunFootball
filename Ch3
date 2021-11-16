@@ -51,4 +51,17 @@ np means mumPy library that pandas is built on
 Axis
   axis = 0 (aka columns)
   axis = 1 (aka rows)
+
+
+Summary functions on Boolean Columns
+  0 for False
+  1 for True
+
+The .any(axis=1) or .all(axis=1) are good ways to make conditions
+
+IMPORTANT:
+  should play around with:
+    pd. tab completing- high level Pandas funcitons
+    pd.Series tab - operations on single columns
+    pd.DataFrame tab -specific methods on DataFrames
 '''
