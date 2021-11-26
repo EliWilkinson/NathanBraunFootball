@@ -69,4 +69,7 @@ loc
   - can pass a second argument
   adp.loc[my_player_names, 'name']
 
+boolean indexing is mroe common
+
+Can be cumbersome to use the name of your DataFrame, "but you'll get used to it"
 '''
