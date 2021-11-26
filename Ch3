@@ -64,4 +64,9 @@ IMPORTANT:
     pd. tab completing- high level Pandas funcitons
     pd.Series tab - operations on single columns
     pd.DataFrame tab -specific methods on DataFrames
+
+loc
+  - can pass a second argument
+  adp.loc[my_player_names, 'name']
+
 '''
