@@ -74,4 +74,7 @@ boolean indexing is mroe common
 Can be cumbersome to use the name of your DataFrame, however it is common practice "you'll get used to it"
 
 A common way to filter data is by removing duplicates
+
+pg 81:
+querying is a less verbose way of only filtering
 '''
