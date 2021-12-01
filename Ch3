@@ -76,5 +76,8 @@ Can be cumbersome to use the name of your DataFrame, however it is common practi
 A common way to filter data is by removing duplicates
 
 pg 81:
+the loc method is flexible and can do everything you need... but:
 querying is a less verbose way of only filtering
+
+Reminder: pg is a separate DataFrame from adp
 '''
