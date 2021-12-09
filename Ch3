@@ -80,4 +80,11 @@ the loc method is flexible and can do everything you need... but:
 querying is a less verbose way of only filtering
 
 Reminder: pg is a separate DataFrame from adp
+
+Granularity
+
+pg 87- multilevel indexing is doable, narrator avoids it for the most part
+
+Stacking and Unstacking- doesn't come up too often
+- moving data from columns to rows or vice versa
 '''
