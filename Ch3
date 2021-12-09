@@ -87,4 +87,7 @@ pg 87- multilevel indexing is doable, narrator avoids it for the most part
 
 Stacking and Unstacking- doesn't come up too often
 - moving data from columns to rows or vice versa
+
+pt 5 Exercise notes
+3.5.1: generally, data can only go from more to less granular, meaning some information is going to be lost in the process
 '''
