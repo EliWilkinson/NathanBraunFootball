@@ -103,5 +103,13 @@ Merging is precise
 2)Are you doing 1 to 1, 1 to many,  or many to many join?
 1:1, 1:M, M:M
 
+1:M comes up a lot when data is efficiently stored, M:M is very rare to see
 
+validate keyword is a good habit to get into:
+pd.merge(combined, player, validate= '1:1')
+
+3) What are you doing with unmatched observations?
+Pandas automatically keeps observations in both tables
+
+tricky when a bunch of players only show having one of either rushing, or receiving stats
 '''
