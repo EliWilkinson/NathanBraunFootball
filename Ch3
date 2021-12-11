@@ -90,4 +90,18 @@ Stacking and Unstacking- doesn't come up too often
 
 pt 5 Exercise notes
 3.5.1: generally, data can only go from more to less granular, meaning some information is going to be lost in the process
+
+Merging
+Combining dataFrames, side by side. like a bookshelf
+Can be done vertically too
+
+1)What columns are you joining?
+
+Merging is precise
+- lots of time is devoted to making sure names and such matchup. Like Odell Beckham vs OBJ or Odell Beckham Jr. or JR.
+
+2)Are you doing 1 to 1, 1 to many,  or many to many join?
+1:1, 1:M, M:M
+
+
 '''
