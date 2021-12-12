@@ -23,5 +23,9 @@ Overpriced book on adding cross tables
 The Essence of SQL
 pg 115 he calls "the essence" of The Essence of SQL
 
+Limit/ Top changes depending on the databse, which is annoying
 
+Union allows you to stack data on top of each other to make one table
+
+Example page 118-120 would be good to look at later
 '''
