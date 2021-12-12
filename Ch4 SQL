@@ -1,0 +1,21 @@
+#'''
+SQL deals with 
+2)Storing data
+3)Loading data 
+
+in the 5 steps of data analysis
+
+CANNOT use SQL unless you have database to use it ON
+
+Databases are importnt to keep info in so we aren't just keeping everything in a spreadsheet.
+	-it gets cluttered very fast in one spreadsheet
+	
+Don't repeat yourself (DRY) when writing code
+
+SQL is good at joining tables, so even though you can store everything in csv file(s), 
+SQL makes relational databases
+
+pg 110
+A single = in SQL is different than in Python
+= tests for Equality in SQL
+'''
