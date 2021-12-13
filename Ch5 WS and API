@@ -1,0 +1,12 @@
+#'''
+There are two ways to get data:
+Web Scraping and APIs
+
+Web scraping deals mostly in HTML CSS and JavaScript
+
+Attributes are optional data
+  - common ones are id and class
+  - they are modified from a separate CSS file
+  - CSS is cosmetic, we don't care what our data looks like, but it's good to know
+
+'''
