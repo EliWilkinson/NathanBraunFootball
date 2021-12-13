@@ -31,4 +31,14 @@ Difference between API and web API
 
 Some APIs are public, some are private 
 
+pg 139
+HTTP is a request to a web server
+  -get is a common request for data in public APIs
+
+JSON
+  -different data format than HTML
+  - JavaScript Object Notation
+  - must be parsed to be useful, because it's gibberish for the most part
+  - after parsing it's just a bunch of Python lists and dicts
+
 '''
