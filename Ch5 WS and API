@@ -41,4 +41,9 @@ JSON
   - must be parsed to be useful, because it's gibberish for the most part
   - after parsing it's just a bunch of Python lists and dicts
 
+Other than being less code, APIs have other appeals too
+  - in the past, HTML and CSS much more popular
+  - most data now is loaded in JavaScript, and thus hidden from scrapers
+  - APIs are the only good option in this case
+  - website has to create it and expose it to the public
 '''
