@@ -9,4 +9,14 @@ Attributes are optional data
   - they are modified from a separate CSS file
   - CSS is cosmetic, we don't care what our data looks like, but it's good to know
 
+Pg128
+Converting BS4 strings into Python strings is good practice
+
+Scraping:
+tr_tag.find_all('th')
+
+Getting the text strings from the scrape
+[str(x.string) for x in tr_tag.find_all('th')]
+
+^^^^^List Comprehension
 '''
