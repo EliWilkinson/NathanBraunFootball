@@ -1,0 +1,25 @@
+#'''
+
+Data analysis derives insights without modeling
+
+1) understand sistribution of a single variable
+2) Understanding the realtionship between two or more variables
+3) Summarize with one composite score <------BIG
+
+Distribution vs Summary Stats pg 149
+
+Data visualization in Python is fragmented
+  -i.e. there are multiiple ways to do it
+  - can get confusing
+
+Matplotlib --> seaborn
+  - Seaborn library is built on top of the mathplotlib
+
+# density plot of standard points
+g = sns.displot(df, x='std', kind='kde', fill=True)
+
+fill = True is so the graph is shaded
+
+Seaborn slicing and dicing plots is extrmely useful
+  - Levers: hue, col,
+'''
