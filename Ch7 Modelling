@@ -39,5 +39,24 @@ Ranodm Forests
 	- susceptible to overfitting
 
 Example pg 189
-	
+
+Because Random Forests are so flexible, it's pointless to evaluate them on the same data used to build the model, they perform too well
+	- what does this mean? I thought this was a model?
+	- instead you should:
+	- take a holdout set (where you know the result)
+	- in this case position (we know what everyplayer's position is
+	- this evaluates the model on data that was NOT used to train it
+	- test_size = .20 (means wea re splitting our data 80/20 to build and test our model
+	- n_estimators = number of trees we want to run
+	- grouping: sees how our model did by position (could be relevent for the different conferences in sports betting?)
+	- Cross validation reduces noise (you can get widely fluctuating results if you run Random forests multiple times)
+
+Cross Validation
+	- takes multiple holdout sets and blends them together
+	- instead of using fit, use the scikit-learn function: cross_val_score
+
+Random Forest Regressions
+	- whould you use the RandomForestRegressor or the OLS statsmodels technique?
+	- for coefficients and understanding and interpreting your model: lean classic linear regression
+	- don't care about understanding how it works as long as it's accurate? : Random Forest
 '''
