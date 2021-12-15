@@ -1,0 +1,43 @@
+#'''
+
+Model- details of an output variable and one or one input variables
+
+
+Simplest model:
+	
+	touchdown or not = model(yards to endzone)
+	
+	output variable: touchdown or not
+	yards to endzone: input variable
+
+ Linear regression
+ 	y = mx + b
+
+pg 175
+The math of linear regression is beyond the scope of this book :(
+
+R squared is alwya between 0 and 1
+	- 0 means your model tells nothing
+	- 1 means your model is perfect
+
+P values and the reciplicability crisis
+	- is the relationship in your model significant or fabricated?
+
+Regression hold things constant
+
+Quadratic variables are common when you think it depends on hwere you are on the input
+
+Interaction- allows effect of variable to change depending on the value of another variable
+
+Ranodm Forests
+	- CARTs Classification and Regression Trees 
+	- Branches are "if --> then" statements
+	- Widom in crowds approach
+	- Random sample of observations (rows) and limitng them to a random subset of columns
+	- this makes the trees different and provides the best results overall
+	- Default in python makes 100 CART trees, but you can change this parameter
+	- susceptible to overfitting
+
+Example pg 189
+	
+'''
