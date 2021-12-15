@@ -2,14 +2,14 @@
 
 Data analysis derives insights without modeling
 
-1) understand sistribution of a single variable
+1) understand distribution of a single variable
 2) Understanding the realtionship between two or more variables
 3) Summarize with one composite score <------BIG
 
 Distribution vs Summary Stats pg 149
 
 Data visualization in Python is fragmented
-  -i.e. there are multiiple ways to do it
+  -i.e. there are multiple ways to do it
   - can get confusing
 
 Matplotlib --> seaborn
@@ -21,5 +21,15 @@ g = sns.displot(df, x='std', kind='kde', fill=True)
 fill = True is so the graph is shaded
 
 Seaborn slicing and dicing plots is extrmely useful
-  - Levers: hue, col,
+  - Levers: hue, col, etc.
+
+Scatter plots are good for realtionships between variables
+Line plots are better when one variable is time
+
+Seems like the "composite score" thing he was talking about was more about the data we use, which the author does not like
+  - he would rather use raw columns of data than a murky stat like QB rating
+
+suptitle means "supertitle"
+
+set method: how much of the x and y axis do you want to show?
 '''
